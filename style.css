@@ -1,0 +1,19 @@
+.container{
+	background-color: #ccc;	
+	max-width: 900px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin:0 auto;
+	flex-wrap: wrap;
+	gap: 10px 20px;
+}
+
+.item{
+	background-color: blue;
+	width: 200px;
+	height: 130px;
+	padding: 20px;
+}
